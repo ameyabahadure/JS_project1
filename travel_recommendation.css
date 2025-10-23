@@ -1,0 +1,172 @@
+/* ===============================
+   Global Styles
+================================ */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f9fafc;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* ===============================
+   Navbar
+================================ */
+nav {
+  background-color: #0078d7;
+  padding: 15px 25px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+#searchSection {
+  display: flex;
+  gap: 10px;
+}
+
+#searchInput {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  width: 220px;
+}
+
+#searchBtn, #resetBtn {
+  background-color: #fff;
+  color: #0078d7;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+#searchBtn:hover, #resetBtn:hover {
+  background-color: #e5f1ff;
+}
+
+/* ===============================
+   Section Styles
+================================ */
+section {
+  padding: 40px 60px;
+}
+
+section h1 {
+  color: #0078d7;
+}
+
+section p {
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+/* ===============================
+   About Us Section
+================================ */
+#about ul {
+  list-style-type: square;
+  padding-left: 20px;
+  line-height: 1.8;
+}
+
+/* ===============================
+   Contact Form
+================================ */
+form {
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 8px;
+  max-width: 500px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button[type="submit"] {
+  background-color: #0078d7;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button[type="submit"]:hover {
+  background-color: #005ea6;
+}
+
+/* ===============================
+   Results Section
+================================ */
+#results {
+  padding: 40px 60px;
+  background-color: #f1f7ff;
+}
+
+#results h2 {
+  color: #0078d7;
+  margin-bottom: 25px;
+}
+
+#results div {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 25px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+#results img {
+  margin-top: 10px;
+  border-radius: 6px;
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+}
+
+/* ===============================
+   Responsive Design
+================================ */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  #searchSection {
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  section {
+    padding: 20px;
+  }
+
+  form {
+    width: 100%;
+  }
+}
