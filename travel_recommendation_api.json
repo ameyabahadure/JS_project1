@@ -1,0 +1,98 @@
+{
+  "countries": [
+    {
+      "id": 1,
+      "name": "Australia",
+      "cities": [
+        {
+          "name": "Sydney",
+          "country": "Australia",
+          "imageUrl": "images/sydney.jpg",
+          "description": "A vibrant city known for the Sydney Opera House, Harbour Bridge, and beautiful beaches."
+        },
+        {
+          "name": "Melbourne",
+          "country": "Australia",
+          "imageUrl": "images/melbourne.jpg",
+          "description": "A cultural hub famous for art, food, and diverse neighborhoods."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Japan",
+      "cities": [
+        {
+          "name": "Tokyo",
+          "country": "Japan",
+          "imageUrl": "images/tokyo.jpg",
+          "description": "A bustling metropolis blending tradition and technology, known for its cherry blossoms."
+        },
+        {
+          "name": "Kyoto",
+          "country": "Japan",
+          "imageUrl": "images/kyoto.jpg",
+          "description": "Known for its historic temples, gardens, tea houses, and traditional architecture."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Brazil",
+      "cities": [
+        {
+          "name": "Rio de Janeiro",
+          "country": "Brazil",
+          "imageUrl": "images/rio.jpg",
+          "description": "A lively city famous for Copacabana Beach, Sugarloaf Mountain, and the Christ the Redeemer statue."
+        },
+        {
+          "name": "São Paulo",
+          "country": "Brazil",
+          "imageUrl": "images/sao_paulo.jpg",
+          "description": "A financial hub rich in cultural diversity, cuisine, and modern architecture."
+        }
+      ]
+    }
+  ],
+  "temples": [
+    {
+      "name": "Angkor Wat",
+      "country": "Cambodia",
+      "imageUrl": "images/angkorwat.jpg",
+      "description": "The world's largest religious monument, known for its stunning Khmer architecture."
+    },
+    {
+      "name": "Golden Temple",
+      "country": "India",
+      "imageUrl": "images/golden_temple.jpg",
+      "description": "A shimmering Sikh temple in Amritsar, representing peace and equality."
+    },
+    {
+      "name": "Senso-ji Temple",
+      "country": "Japan",
+      "imageUrl": "images/sensoji.jpg",
+      "description": "Tokyo's oldest Buddhist temple, a symbol of resilience and tradition."
+    }
+  ],
+  "beaches": [
+    {
+      "name": "Bondi Beach",
+      "country": "Australia",
+      "imageUrl": "images/bondi.jpg",
+      "description": "A world-famous beach in Sydney known for golden sands and surfing culture."
+    },
+    {
+      "name": "Copacabana",
+      "country": "Brazil",
+      "imageUrl": "images/copacabana.jpg",
+      "description": "A lively beach in Rio de Janeiro surrounded by bustling nightlife."
+    },
+    {
+      "name": "Waikiki Beach",
+      "country": "Hawaii, USA",
+      "imageUrl": "images/waikiki.jpg",
+      "description": "A tropical paradise in Honolulu known for sunsets and surfing."
+    }
+  ]
+}
